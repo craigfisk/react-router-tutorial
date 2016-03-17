@@ -7,10 +7,11 @@
     "no-unused-vars": [0, {"vars": "local", "args": "none"}],
     "no-multiple-empty-lines": 0,
     "react/jsx-uses-react": 1,
-    "semi": [2, "always"]
+    "semi": [0, "always"]
   },
   "globals": {
-    "React": true
+    "React": true,
+    "module": true
   },
   "env": {
     "es6": true,
