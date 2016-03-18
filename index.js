@@ -9,7 +9,7 @@ import Repo from './modules/Repo'
 render((
   <Router>
     <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
+      {/*<IndexRoute component={Home}/>*/}
       <Route path="/repos" component={Repos}/>
       {/* make them children of App */}
       <Route path="/repos/:userName/:repoName" component={Repo}/>
