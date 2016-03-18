@@ -10,9 +10,9 @@ render((
   <Router>
     <Route path="/" component={App}>
       {/*<IndexRoute component={Home}/>*/}
-      <Route path="/repos" component={Repos}/>
-      {/* make them children of App */}
-      <Route path="/repos/:userName/:repoName" component={Repo}/>
+      <Route path="/repos" component={Repos}>
+        <Route path="/repos/:userName/:repoName" component={Repo}/>
+      </Route>
       <Route path="/about" component={About}/>
     </Route>
   </Router>
