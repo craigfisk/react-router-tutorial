@@ -7,6 +7,9 @@ module.exports = {
   entry: path.resolve(__dirname, 'server.js'),
 
   output: {
+    //path: 'public',
+    //filename: 'bundle.js',
+    //publicPath: '',
     filename: 'server.bundle.js'
   },
 
@@ -26,8 +29,8 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_moudles/, loader: 'babel-loader?presets[]=es2015&presets[]=react' }
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=es2015&presets[]=react' }
     ]
   }
-  
+
 }
