@@ -1,4 +1,4 @@
-/* App.js */
+/* modules/App.js */
 
 import React from 'react'
 //import { Link } from 'react-router'

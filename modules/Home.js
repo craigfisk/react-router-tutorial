@@ -1,4 +1,4 @@
-/* Home.js */
+/* modules/Home.js */
 
 import React from 'react'
 

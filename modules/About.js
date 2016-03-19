@@ -1,4 +1,4 @@
-/* About.js */
+/* modules/About.js */
 
 import React from 'react'
 

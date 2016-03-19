@@ -1,4 +1,4 @@
-/* Repo.js */
+/* modules/Repo.js */
 
 import React from 'react'
 
